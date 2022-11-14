@@ -3,7 +3,7 @@ Group Members <br/>
 Ahmed Bajwa (FA20-BSE-169) => Leader <br/>
 Waleed Khan (SP21-BSE-026) <br/>
 Muzammil Shirzad (SP21-BSE-005) <br/>
-Mattiullah Safi (SP21-BSE-005) <br/>
+Mattiallah Safi (SP21-BSE-030) <br/>
 Tayyab Rafique (SP21-BSE-024) <br/>
 Muhammad Ali Raza(FA20-BSE-048) <br/>
 Anas Iqbal (unknown) <br/>

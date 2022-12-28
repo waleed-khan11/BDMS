@@ -3,7 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/Users/Waleed/Documents/GitHub/BDMS/Code/SP21-BSE-026-UC(Check%20Donor%20List,Donate%20Blood)/src/model/dto/DonorDTO.java</file>
             <file>file:/C:/Users/Waleed/Documents/GitHub/BDMS/Code/SP21-BSE-026-UC(Check%20Donor%20List,Donate%20Blood)/src/model/BDMS_Validator/CommonValidator.java</file>
+            <file>file:/C:/Users/Waleed/Documents/GitHub/BDMS/Code/SP21-BSE-026-UC(Check%20Donor%20List,Donate%20Blood)/src/model/dto/MessageType.java</file>
+            <file>file:/C:/Users/Waleed/Documents/GitHub/BDMS/Code/SP21-BSE-026-UC(Check%20Donor%20List,Donate%20Blood)/src/model/dto/Message.java</file>
+            <file>file:/C:/Users/Waleed/Documents/GitHub/BDMS/Code/SP21-BSE-026-UC(Check%20Donor%20List,Donate%20Blood)/src/model/dto/Response.java</file>
+            <file>file:/C:/Users/Waleed/Documents/GitHub/BDMS/Code/SP21-BSE-026-UC(Check%20Donor%20List,Donate%20Blood)/src/model/BDMS_Creator.java</file>
+            <file>file:/C:/Users/Waleed/Documents/GitHub/BDMS/Code/SP21-BSE-026-UC(Check%20Donor%20List,Donate%20Blood)/src/dal/SQLConnection.java</file>
+            <file>file:/C:/Users/Waleed/Documents/GitHub/BDMS/Code/SP21-BSE-026-UC(Check%20Donor%20List,Donate%20Blood)/src/UI/DonateBlood.java</file>
         </group>
     </open-files>
 </project-private>

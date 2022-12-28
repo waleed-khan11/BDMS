@@ -17,7 +17,7 @@ public class DonateBlood extends javax.swing.JFrame {
     /**
      * Creates new form DonateBlood
      */
-    int reg = 20;
+    int reg = 22;
     BDMS_Controller objController;
     public DonateBlood(BDMS_Controller bController) {
         initComponents();

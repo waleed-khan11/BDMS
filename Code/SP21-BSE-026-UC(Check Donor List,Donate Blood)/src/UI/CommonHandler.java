@@ -18,7 +18,8 @@ public class CommonHandler {
         if(objResponse.hasError()){
             if(uiComponent instanceof JLabel){
                 ((JLabel)uiComponent).setText(objResponse.getErrorMessages());
-                ((JLabel)uiComponent).setForeground(Color.BLUE);
+                ((JLabel)uiComponent).setForeground(Color.WHITE);
+                //((JLabel)uiComponent).setBounds(0, 40, 0, 0);
             }
         }
     }

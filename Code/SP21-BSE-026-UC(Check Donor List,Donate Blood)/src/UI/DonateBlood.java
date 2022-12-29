@@ -285,7 +285,7 @@ public class DonateBlood extends javax.swing.JFrame {
         objdon.age = jTextField4.getText();
         objdon.City = jTextField3.getText();
         Response objResponse = objController.addDonor(objdon);
-        CommonHandler.handleResponse(objResponse,jLabel5);
+        CommonHandler.handleResponse(objResponse,jLabel5);        
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**

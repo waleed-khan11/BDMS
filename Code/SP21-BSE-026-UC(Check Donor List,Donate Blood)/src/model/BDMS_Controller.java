@@ -17,10 +17,10 @@ import model.BDMS_Validator.CommonValidator;
 public class BDMS_Controller {
     
     DAL_Manager objDAL = BDMS_Creator.getInstanceOF_DAL_Manager();
-      public ArrayList<DonorDTO> CheckDonorList(String searchKey) {
+      public ArrayList<DonorDTO> searchDonorList(String searchKey) {
         return objDAL.getDonorsList(searchKey);
     }
-          public Response addDonor(DonorDTO objDon) {
+        public Response addDonor(DonorDTO objDon) {
         Response objResponse = BDMS_Creator.getInstanceOF_Response();
         CommonValidator.validateDonor(objDon,objResponse);
         if(objResponse.isSuccessfull()){

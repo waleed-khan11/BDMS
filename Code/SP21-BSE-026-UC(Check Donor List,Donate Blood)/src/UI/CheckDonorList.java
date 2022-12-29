@@ -50,7 +50,7 @@ public class CheckDonorList extends javax.swing.JFrame {
     }
         private void loadData() {
         String searchKeyword = searchEmployee.getText();
-        ArrayList<DonorDTO> donList = objController.CheckDonorList(searchKeyword);
+        ArrayList<DonorDTO> donList = objController.searchDonorList(searchKeyword);
         populateDataFromDataBase(donList);
     }
         public String getSearchVal(){
@@ -239,7 +239,7 @@ public class CheckDonorList extends javax.swing.JFrame {
     private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
         // TODO add your handling code here:
         String searchKeyword = jComboBox1.getSelectedItem().toString();
-        ArrayList<DonorDTO> donList = objController.CheckDonorList(searchKeyword);
+        ArrayList<DonorDTO> donList = objController.searchDonorList(searchKeyword);
         populateDataFromDataBase(donList);
     }//GEN-LAST:event_jComboBox1ActionPerformed
 

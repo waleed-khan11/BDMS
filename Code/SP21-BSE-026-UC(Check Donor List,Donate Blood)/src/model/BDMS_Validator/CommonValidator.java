@@ -15,6 +15,9 @@ import UI.CheckDonorList;
  */
 public class CommonValidator {
         public static void validateDonor(DonorDTO objDon, Response objResponse) {
+        if(objDon.Firstname ==null && objDon.City == null  &&objDon.Lastname == null ){
+         objResponse.messagesList.add(BDMS_Creator.getInstanceOF_Message("Please Enter some data in the above boxes.",MessageType.Error));   
+        }
         if(objDon.Firstname == null || objDon.Firstname.length() < 3){
             objResponse.messagesList.add(BDMS_Creator.getInstanceOF_Message("FIrst Name is not valid, Provide valid first name with at least 3 characters.",MessageType.Error));
         }
@@ -23,6 +26,9 @@ public class CommonValidator {
         }
         if(objDon.City == null || objDon.City.length() < 3){
             objResponse.messagesList.add(BDMS_Creator.getInstanceOF_Message("City Name is not valid, Provide a valid city name with at least 3 characters.",MessageType.Error));
+        }
+        if(objDon.Firstname ==null && objDon.City == null  &&objDon.Lastname == null ){
+         objResponse.messagesList.add(BDMS_Creator.getInstanceOF_Message("Please Enter some data in the above boxes.",MessageType.Error));   
         }
         try{
             int a=Integer.parseInt(objDon.age);

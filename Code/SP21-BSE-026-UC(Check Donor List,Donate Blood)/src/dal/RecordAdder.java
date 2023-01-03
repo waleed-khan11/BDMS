@@ -11,6 +11,7 @@ import model.dto.Response;
 import model.dto.DonorDTO;
 import model.BDMS_Creator;
 import model.dto.MessageType;
+import UI.DonateBlood;
 /**
  *
  * @author Waleed
@@ -27,9 +28,10 @@ public class RecordAdder {
             p.setString(6, objDon.City);
             
             int rowsInserted = p.executeUpdate();
-            if(rowsInserted > 0){
-                objResponse.messagesList.add(BDMS_Creator.getInstanceOF_Message("Donation Successfully.", MessageType.Information));
-            }
+            
+                DonateBlood db = BDMS_Creator.getInstanceOF_DonateBlood();
+                db.jLabel8.setText("Donation Succesfull");
+            
         }catch(SQLException e){
             objResponse.messagesList.add(BDMS_Creator.getInstanceOF_Message("Ooops! Failed to Donate Blood, Please contact support that there an issue while saving Donating Blood.", MessageType.Error));
             objResponse.messagesList.add(BDMS_Creator.getInstanceOF_Message(e.getMessage() + "\n Stack Track:\n"+e.getStackTrace(), MessageType.Exception));

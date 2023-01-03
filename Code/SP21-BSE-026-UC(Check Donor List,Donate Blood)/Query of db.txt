@@ -1,0 +1,4 @@
+create table donor(id varchar(50) primary key,firstName varchar(50) not null,lastName varchar(50) not null,bloodtype varchar(50),age varchar(50) not null,city varchar(50) not null)
+
+insert into donor(id,firstName,lastName,bloodtype,age,city)
+values(1,user,name,AB+,22,Lahore)

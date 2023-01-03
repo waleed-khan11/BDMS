@@ -1,0 +1,1 @@
+use the query given with the code and create table is mssql and then connect the netbeans with the mssql in the end run the code.  

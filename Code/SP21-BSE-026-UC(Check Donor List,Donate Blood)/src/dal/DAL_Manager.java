@@ -48,7 +48,7 @@ public class DAL_Manager {
    public void saveDonors(DonorDTO objDon, Response objResponse) {
         try{
             Connection  dbConnection = objConnection.getConnection();
-            objAdder.saveDonors(objDon,objResponse,dbConnection);            
+            objAdder.saveDonor(objDon,objResponse,dbConnection);            
         }catch(Exception e){
         objResponse.messagesList.add(BDMS_Creator.getInstanceOF_Message("Ooops! Failed to Donate Blood, Please contact support that there an issue while Donating Blood.", MessageType.Error));//
         objResponse.messagesList.add(BDMS_Creator.getInstanceOF_Message(e.getMessage() + "\n Stack Track:\n"+e.getStackTrace(), MessageType.Exception));//

@@ -17,7 +17,7 @@ import UI.DonateBlood;
  * @author Waleed
  */
 public class RecordAdder {
-    public void saveDonors(DonorDTO objDon, Response objResponse, Connection dbConnection) {
+    public void saveDonor(DonorDTO objDon, Response objResponse, Connection dbConnection) {
         try{
             PreparedStatement p = dbConnection.prepareStatement("INSERT INTO donor (Reg#,firstName,lastName,bloodtype,age,city) VALUES (?,?,?,?,?,?);");
             p.setString(1, objDon.id);

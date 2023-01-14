@@ -17,7 +17,7 @@ public class DonateBlood extends javax.swing.JFrame {
     /**
      * Creates new form DonateBlood
      */
-    int reg = 22;
+    int reg = 24;
     BDMS_Controller objController;
     public DonateBlood(BDMS_Controller bController) {
         initComponents();
@@ -93,7 +93,7 @@ public class DonateBlood extends javax.swing.JFrame {
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Blood Type");
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "A-", "A+", "B+", "AB+", "AB-", "O+", "O-" }));
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select Blood Type", "A-", "A+", "B+", "AB+", "AB-", "O+", "O-" }));
         jComboBox1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jComboBox1ActionPerformed(evt);

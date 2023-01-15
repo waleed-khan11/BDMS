@@ -30,7 +30,7 @@ public class RecordAdder {
             int rowsInserted = p.executeUpdate();
             
                 DonateBlood db = BDMS_Creator.getInstanceOF_DonateBlood();
-                db.jLabel8.setText("Donation Succesfull");
+                db.jLabel9.setText("Donation Succesfull");
             
         }catch(SQLException e){
             objResponse.messagesList.add(BDMS_Creator.getInstanceOF_Message("Ooops! Failed to Donate Blood, Please contact support that there an issue while saving Donating Blood.", MessageType.Error));

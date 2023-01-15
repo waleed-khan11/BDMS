@@ -20,3 +20,4 @@ doc/api/
 *.js.deps
 *.js.map
 /Code/BDMSystems/nbproject/private/
+/Code/SP21-BSE-026-UC(Check Donor List,Donate Blood)/dist/

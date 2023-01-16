@@ -9,7 +9,7 @@ package model;
  * @author Waleed
  */
 import UI.DonateBlood;
-import UI.CheckDonorList;
+import UI.ViewDonorsList;
 import UI.Dashboard;
 import javax.swing.table.DefaultTableModel;
 import dal.DAL_Manager;
@@ -36,8 +36,8 @@ public class BDMS_Creator {
         return new DonateBlood(new BDMS_Controller());
     }
 
-    public static CheckDonorList getInstanceOF_CheckDonorList() {
-        return new CheckDonorList();
+    public static ViewDonorsList getInstanceOF_CheckDonorList() {
+        return new ViewDonorsList();
     }
 
     public static Dashboard getInstanceOF_Dashboard() {

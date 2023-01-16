@@ -1,0 +1,1831 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				},
+				{
+					"_type": "UMLActor",
+					"_id": "AAAAAAGEwpZjf2a6Tos=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Actor1"
+				}
+			]
+		},
+		{
+			"_type": "UMLCollaboration",
+			"_id": "AAAAAAGECTSwRXIp8QI=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Collaboration1",
+			"ownedElements": [
+				{
+					"_type": "UMLInteraction",
+					"_id": "AAAAAAGECTSwRnIqECY=",
+					"_parent": {
+						"$ref": "AAAAAAGECTSwRXIp8QI="
+					},
+					"name": "Interaction1",
+					"ownedElements": [
+						{
+							"_type": "UMLSequenceDiagram",
+							"_id": "AAAAAAGECTSwRnIrNxU=",
+							"_parent": {
+								"$ref": "AAAAAAGECTSwRnIqECY="
+							},
+							"name": "Donate Blood S1",
+							"ownedViews": [
+								{
+									"_type": "UMLSeqLifelineView",
+									"_id": "AAAAAAGECTW4+3Jrybc=",
+									"_parent": {
+										"$ref": "AAAAAAGECTSwRnIrNxU="
+									},
+									"model": {
+										"$ref": "AAAAAAGECTW4+3JqDbA="
+									},
+									"subViews": [
+										{
+											"_type": "UMLNameCompartmentView",
+											"_id": "AAAAAAGECTW4/HJsXgs=",
+											"_parent": {
+												"$ref": "AAAAAAGECTW4+3Jrybc="
+											},
+											"model": {
+												"$ref": "AAAAAAGECTW4+3JqDbA="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGECTW4/HJtxBc=",
+													"_parent": {
+														"$ref": "AAAAAAGECTW4/HJsXgs="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"height": 13
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGECTW4/HJuaNA=",
+													"_parent": {
+														"$ref": "AAAAAAGECTW4/HJsXgs="
+													},
+													"font": "Arial;13;1",
+													"left": 525,
+													"top": 47,
+													"width": 156.6181640625,
+													"height": 13,
+													"text": "System"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGECTW4/HJvQH8=",
+													"_parent": {
+														"$ref": "AAAAAAGECTW4/HJsXgs="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"width": 106.20263671875,
+													"height": 13,
+													"text": "(from Interaction1)"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGECTW4/HJwo20=",
+													"_parent": {
+														"$ref": "AAAAAAGECTW4/HJsXgs="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"height": 13,
+													"horizontalAlignment": 1
+												}
+											],
+											"font": "Arial;13;0",
+											"left": 520,
+											"top": 40,
+											"width": 166.6181640625,
+											"height": 40,
+											"stereotypeLabel": {
+												"$ref": "AAAAAAGECTW4/HJtxBc="
+											},
+											"nameLabel": {
+												"$ref": "AAAAAAGECTW4/HJuaNA="
+											},
+											"namespaceLabel": {
+												"$ref": "AAAAAAGECTW4/HJvQH8="
+											},
+											"propertyLabel": {
+												"$ref": "AAAAAAGECTW4/HJwo20="
+											}
+										},
+										{
+											"_type": "UMLLinePartView",
+											"_id": "AAAAAAGECTW4/HJxWX0=",
+											"_parent": {
+												"$ref": "AAAAAAGECTW4+3Jrybc="
+											},
+											"model": {
+												"$ref": "AAAAAAGECTW4+3JqDbA="
+											},
+											"font": "Arial;13;0",
+											"left": 603,
+											"top": 80,
+											"width": 1,
+											"height": 377
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 520,
+									"top": 40,
+									"width": 166.6181640625,
+									"height": 417,
+									"nameCompartment": {
+										"$ref": "AAAAAAGECTW4/HJsXgs="
+									},
+									"linePart": {
+										"$ref": "AAAAAAGECTW4/HJxWX0="
+									}
+								},
+								{
+									"_type": "UMLSeqLifelineView",
+									"_id": "AAAAAAGEwpZwP2a/nc8=",
+									"_parent": {
+										"$ref": "AAAAAAGECTSwRnIrNxU="
+									},
+									"model": {
+										"$ref": "AAAAAAGEwpZwP2a+GCE="
+									},
+									"subViews": [
+										{
+											"_type": "UMLNameCompartmentView",
+											"_id": "AAAAAAGEwpZwP2bANuc=",
+											"_parent": {
+												"$ref": "AAAAAAGEwpZwP2a/nc8="
+											},
+											"model": {
+												"$ref": "AAAAAAGEwpZwP2a+GCE="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGEwpZwP2bBznQ=",
+													"_parent": {
+														"$ref": "AAAAAAGEwpZwP2bANuc="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"height": 13
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGEwpZwP2bCmWA=",
+													"_parent": {
+														"$ref": "AAAAAAGEwpZwP2bANuc="
+													},
+													"font": "Arial;13;1",
+													"left": 141,
+													"top": 87,
+													"width": 101.8544921875,
+													"height": 13,
+													"text": "Donor: Actor1"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGEwpZwP2bDCAc=",
+													"_parent": {
+														"$ref": "AAAAAAGEwpZwP2bANuc="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"width": 106.20263671875,
+													"height": 13,
+													"text": "(from Interaction1)"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGEwpZwP2bEMb8=",
+													"_parent": {
+														"$ref": "AAAAAAGEwpZwP2bANuc="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"height": 13,
+													"horizontalAlignment": 1
+												}
+											],
+											"font": "Arial;13;0",
+											"left": 136,
+											"top": 80,
+											"width": 111.8544921875,
+											"height": 25,
+											"stereotypeLabel": {
+												"$ref": "AAAAAAGEwpZwP2bBznQ="
+											},
+											"nameLabel": {
+												"$ref": "AAAAAAGEwpZwP2bCmWA="
+											},
+											"namespaceLabel": {
+												"$ref": "AAAAAAGEwpZwP2bDCAc="
+											},
+											"propertyLabel": {
+												"$ref": "AAAAAAGEwpZwP2bEMb8="
+											}
+										},
+										{
+											"_type": "UMLLinePartView",
+											"_id": "AAAAAAGEwpZwP2bFZfs=",
+											"_parent": {
+												"$ref": "AAAAAAGEwpZwP2a/nc8="
+											},
+											"model": {
+												"$ref": "AAAAAAGEwpZwP2a+GCE="
+											},
+											"font": "Arial;13;0",
+											"left": 192,
+											"top": 105,
+											"width": 1,
+											"height": 344
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 136,
+									"top": 40,
+									"width": 111.8544921875,
+									"height": 409,
+									"stereotypeDisplay": "icon",
+									"nameCompartment": {
+										"$ref": "AAAAAAGEwpZwP2bANuc="
+									},
+									"linePart": {
+										"$ref": "AAAAAAGEwpZwP2bFZfs="
+									}
+								},
+								{
+									"_type": "UMLTextView",
+									"_id": "AAAAAAGEwpiFTWbjKWc=",
+									"_parent": {
+										"$ref": "AAAAAAGECTSwRnIrNxU="
+									},
+									"font": "Arial;13;0",
+									"left": 304,
+									"top": 48,
+									"width": 169,
+									"height": 33,
+									"text": "Donate Blood:S1"
+								},
+								{
+									"_type": "UMLSeqMessageView",
+									"_id": "AAAAAAGEwpmpOGbv7lk=",
+									"_parent": {
+										"$ref": "AAAAAAGECTSwRnIrNxU="
+									},
+									"model": {
+										"$ref": "AAAAAAGEwpmpOGbujH8="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGEwpmpOGbwsVs=",
+											"_parent": {
+												"$ref": "AAAAAAGEwpmpOGbv7lk="
+											},
+											"model": {
+												"$ref": "AAAAAAGEwpmpOGbujH8="
+											},
+											"font": "Arial;13;0",
+											"left": 320,
+											"top": 144,
+											"width": 149.59521484375,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGEwpmpOGbv7lk="
+											},
+											"edgePosition": 1,
+											"text": "1 : Click on donates blood"
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGEwpmpOWbxwJA=",
+											"_parent": {
+												"$ref": "AAAAAAGEwpmpOGbv7lk="
+											},
+											"model": {
+												"$ref": "AAAAAAGEwpmpOGbujH8="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 394,
+											"top": 129,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 25,
+											"hostEdge": {
+												"$ref": "AAAAAAGEwpmpOGbv7lk="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGEwpmpOWby4oo=",
+											"_parent": {
+												"$ref": "AAAAAAGEwpmpOGbv7lk="
+											},
+											"model": {
+												"$ref": "AAAAAAGEwpmpOGbujH8="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 394,
+											"top": 164,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGEwpmpOGbv7lk="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "UMLActivationView",
+											"_id": "AAAAAAGEwpmpOWbzzZM=",
+											"_parent": {
+												"$ref": "AAAAAAGEwpmpOGbv7lk="
+											},
+											"model": {
+												"$ref": "AAAAAAGEwpmpOGbujH8="
+											},
+											"font": "Arial;13;0",
+											"left": 596,
+											"top": 160,
+											"width": 14,
+											"height": 29
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAGECTW4/HJxWX0="
+									},
+									"tail": {
+										"$ref": "AAAAAAGEwpZwP2bFZfs="
+									},
+									"points": "192:160;596:160",
+									"nameLabel": {
+										"$ref": "AAAAAAGEwpmpOGbwsVs="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGEwpmpOWbxwJA="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGEwpmpOWby4oo="
+									},
+									"activation": {
+										"$ref": "AAAAAAGEwpmpOWbzzZM="
+									}
+								},
+								{
+									"_type": "UMLSeqMessageView",
+									"_id": "AAAAAAGEwpnm7WcFRt4=",
+									"_parent": {
+										"$ref": "AAAAAAGECTSwRnIrNxU="
+									},
+									"model": {
+										"$ref": "AAAAAAGEwpnm7WcEwpo="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGEwpnm7WcGf38=",
+											"_parent": {
+												"$ref": "AAAAAAGEwpnm7WcFRt4="
+											},
+											"model": {
+												"$ref": "AAAAAAGEwpnm7WcEwpo="
+											},
+											"font": "Arial;13;0",
+											"left": 317,
+											"top": 252,
+											"width": 159.732421875,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGEwpnm7WcFRt4="
+											},
+											"edgePosition": 1,
+											"text": "2 : ask for details"
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGEwpnm7WcHYGs=",
+											"_parent": {
+												"$ref": "AAAAAAGEwpnm7WcFRt4="
+											},
+											"model": {
+												"$ref": "AAAAAAGEwpnm7WcEwpo="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 396,
+											"top": 267,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 25,
+											"hostEdge": {
+												"$ref": "AAAAAAGEwpnm7WcFRt4="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGEwpnm7mcIZ+A=",
+											"_parent": {
+												"$ref": "AAAAAAGEwpnm7WcFRt4="
+											},
+											"model": {
+												"$ref": "AAAAAAGEwpnm7WcEwpo="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 397,
+											"top": 232,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGEwpnm7WcFRt4="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "UMLActivationView",
+											"_id": "AAAAAAGEwpnm7mcJrN0=",
+											"_parent": {
+												"$ref": "AAAAAAGEwpnm7WcFRt4="
+											},
+											"model": {
+												"$ref": "AAAAAAGEwpnm7WcEwpo="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 192,
+											"top": 248,
+											"width": 14,
+											"height": 25
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAGEwpZwP2bFZfs="
+									},
+									"tail": {
+										"$ref": "AAAAAAGECTW4/HJxWX0="
+									},
+									"points": "603:248;192:248",
+									"nameLabel": {
+										"$ref": "AAAAAAGEwpnm7WcGf38="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGEwpnm7WcHYGs="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGEwpnm7mcIZ+A="
+									},
+									"activation": {
+										"$ref": "AAAAAAGEwpnm7mcJrN0="
+									}
+								},
+								{
+									"_type": "UMLSeqMessageView",
+									"_id": "AAAAAAGEwppjoGcc+fM=",
+									"_parent": {
+										"$ref": "AAAAAAGECTSwRnIrNxU="
+									},
+									"model": {
+										"$ref": "AAAAAAGEwppjoGcbdhU="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGEwppjoGcdPvc=",
+											"_parent": {
+												"$ref": "AAAAAAGEwppjoGcc+fM="
+											},
+											"model": {
+												"$ref": "AAAAAAGEwppjoGcbdhU="
+											},
+											"font": "Arial;13;0",
+											"left": 311,
+											"top": 328,
+											"width": 166.93701171875,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGEwppjoGcc+fM="
+											},
+											"edgePosition": 1,
+											"text": "3 : Enter Details"
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGEwppjoWced/Q=",
+											"_parent": {
+												"$ref": "AAAAAAGEwppjoGcc+fM="
+											},
+											"model": {
+												"$ref": "AAAAAAGEwppjoGcbdhU="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 394,
+											"top": 313,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 25,
+											"hostEdge": {
+												"$ref": "AAAAAAGEwppjoGcc+fM="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGEwppjoWcf9YA=",
+											"_parent": {
+												"$ref": "AAAAAAGEwppjoGcc+fM="
+											},
+											"model": {
+												"$ref": "AAAAAAGEwppjoGcbdhU="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 394,
+											"top": 348,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGEwppjoGcc+fM="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "UMLActivationView",
+											"_id": "AAAAAAGEwppjoWcgJL0=",
+											"_parent": {
+												"$ref": "AAAAAAGEwppjoGcc+fM="
+											},
+											"model": {
+												"$ref": "AAAAAAGEwppjoGcbdhU="
+											},
+											"font": "Arial;13;0",
+											"left": 596,
+											"top": 344,
+											"width": 14,
+											"height": 29
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAGECTW4/HJxWX0="
+									},
+									"tail": {
+										"$ref": "AAAAAAGEwpZwP2bFZfs="
+									},
+									"points": "192:344;596:344",
+									"nameLabel": {
+										"$ref": "AAAAAAGEwppjoGcdPvc="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGEwppjoWced/Q="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGEwppjoWcf9YA="
+									},
+									"activation": {
+										"$ref": "AAAAAAGEwppjoWcgJL0="
+									}
+								},
+								{
+									"_type": "UMLSeqMessageView",
+									"_id": "AAAAAAGFuYZ4gSDx8o8=",
+									"_parent": {
+										"$ref": "AAAAAAGECTSwRnIrNxU="
+									},
+									"model": {
+										"$ref": "AAAAAAGFuYZ4gCDwuWw="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGFuYZ4gSDyS9E=",
+											"_parent": {
+												"$ref": "AAAAAAGFuYZ4gSDx8o8="
+											},
+											"model": {
+												"$ref": "AAAAAAGFuYZ4gCDwuWw="
+											},
+											"font": "Arial;13;0",
+											"left": 323,
+											"top": 377,
+											"width": 143.09521484375,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGFuYZ4gSDx8o8="
+											},
+											"edgePosition": 1,
+											"text": "4 : Click on donate blood"
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGFuYZ4gSDzY9c=",
+											"_parent": {
+												"$ref": "AAAAAAGFuYZ4gSDx8o8="
+											},
+											"model": {
+												"$ref": "AAAAAAGFuYZ4gCDwuWw="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 394,
+											"top": 362,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 25,
+											"hostEdge": {
+												"$ref": "AAAAAAGFuYZ4gSDx8o8="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGFuYZ4gSD0WUU=",
+											"_parent": {
+												"$ref": "AAAAAAGFuYZ4gSDx8o8="
+											},
+											"model": {
+												"$ref": "AAAAAAGFuYZ4gCDwuWw="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 394,
+											"top": 397,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGFuYZ4gSDx8o8="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "UMLActivationView",
+											"_id": "AAAAAAGFuYZ4gSD1mPE=",
+											"_parent": {
+												"$ref": "AAAAAAGFuYZ4gSDx8o8="
+											},
+											"model": {
+												"$ref": "AAAAAAGFuYZ4gCDwuWw="
+											},
+											"font": "Arial;13;0",
+											"left": 596,
+											"top": 393,
+											"width": 14,
+											"height": 29
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAGECTW4/HJxWX0="
+									},
+									"tail": {
+										"$ref": "AAAAAAGEwpZwP2bFZfs="
+									},
+									"points": "192:393;596:393",
+									"nameLabel": {
+										"$ref": "AAAAAAGFuYZ4gSDyS9E="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGFuYZ4gSDzY9c="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGFuYZ4gSD0WUU="
+									},
+									"activation": {
+										"$ref": "AAAAAAGFuYZ4gSD1mPE="
+									}
+								}
+							]
+						}
+					],
+					"messages": [
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAGEwpmpOGbujH8=",
+							"_parent": {
+								"$ref": "AAAAAAGECTSwRnIqECY="
+							},
+							"name": "Click on donates blood",
+							"source": {
+								"$ref": "AAAAAAGEwpZwP2a+GCE="
+							},
+							"target": {
+								"$ref": "AAAAAAGECTW4+3JqDbA="
+							}
+						},
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAGEwpnm7WcEwpo=",
+							"_parent": {
+								"$ref": "AAAAAAGECTSwRnIqECY="
+							},
+							"name": "ask for details",
+							"source": {
+								"$ref": "AAAAAAGECTW4+3JqDbA="
+							},
+							"target": {
+								"$ref": "AAAAAAGEwpZwP2a+GCE="
+							},
+							"messageSort": "reply"
+						},
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAGEwppjoGcbdhU=",
+							"_parent": {
+								"$ref": "AAAAAAGECTSwRnIqECY="
+							},
+							"name": "Enter Details",
+							"source": {
+								"$ref": "AAAAAAGEwpZwP2a+GCE="
+							},
+							"target": {
+								"$ref": "AAAAAAGECTW4+3JqDbA="
+							}
+						},
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAGFuYZ4gCDwuWw=",
+							"_parent": {
+								"$ref": "AAAAAAGECTSwRnIqECY="
+							},
+							"name": "Click on donate blood",
+							"source": {
+								"$ref": "AAAAAAGEwpZwP2a+GCE="
+							},
+							"target": {
+								"$ref": "AAAAAAGECTW4+3JqDbA="
+							}
+						}
+					],
+					"participants": [
+						{
+							"_type": "UMLLifeline",
+							"_id": "AAAAAAGECTW4+3JqDbA=",
+							"_parent": {
+								"$ref": "AAAAAAGECTSwRnIqECY="
+							},
+							"name": "System",
+							"represent": {
+								"$ref": "AAAAAAGECTW4+3Jp84c="
+							},
+							"isMultiInstance": false
+						},
+						{
+							"_type": "UMLLifeline",
+							"_id": "AAAAAAGEwpZwP2a+GCE=",
+							"_parent": {
+								"$ref": "AAAAAAGECTSwRnIqECY="
+							},
+							"name": "Donor",
+							"represent": {
+								"$ref": "AAAAAAGEwpZwP2a987Y="
+							},
+							"isMultiInstance": false
+						}
+					]
+				}
+			],
+			"attributes": [
+				{
+					"_type": "UMLAttribute",
+					"_id": "AAAAAAGECTWdRXJJ+Ik=",
+					"_parent": {
+						"$ref": "AAAAAAGECTSwRXIp8QI="
+					},
+					"name": "Role1",
+					"type": ""
+				},
+				{
+					"_type": "UMLAttribute",
+					"_id": "AAAAAAGECTW4+3Jp84c=",
+					"_parent": {
+						"$ref": "AAAAAAGECTSwRXIp8QI="
+					},
+					"name": "Role2",
+					"type": ""
+				},
+				{
+					"_type": "UMLAttribute",
+					"_id": "AAAAAAGEwpZwP2a987Y=",
+					"_parent": {
+						"$ref": "AAAAAAGECTSwRXIp8QI="
+					},
+					"name": "Role3",
+					"type": {
+						"$ref": "AAAAAAGEwpZjf2a6Tos="
+					}
+				}
+			]
+		},
+		{
+			"_type": "UMLCollaboration",
+			"_id": "AAAAAAGECTVomnI5Yfw=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Collaboration2",
+			"ownedElements": [
+				{
+					"_type": "UMLInteraction",
+					"_id": "AAAAAAGECTVomnI6/yU=",
+					"_parent": {
+						"$ref": "AAAAAAGECTVomnI5Yfw="
+					},
+					"name": "Interaction1",
+					"ownedElements": [
+						{
+							"_type": "UMLSequenceDiagram",
+							"_id": "AAAAAAGECTVomnI7ESA=",
+							"_parent": {
+								"$ref": "AAAAAAGECTVomnI6/yU="
+							},
+							"name": "Donate Blood S2",
+							"ownedViews": [
+								{
+									"_type": "UMLSeqLifelineView",
+									"_id": "AAAAAAGECTkGRXMTTN4=",
+									"_parent": {
+										"$ref": "AAAAAAGECTVomnI7ESA="
+									},
+									"model": {
+										"$ref": "AAAAAAGECTkGRXMSI2E="
+									},
+									"subViews": [
+										{
+											"_type": "UMLNameCompartmentView",
+											"_id": "AAAAAAGECTkGRXMUj3A=",
+											"_parent": {
+												"$ref": "AAAAAAGECTkGRXMTTN4="
+											},
+											"model": {
+												"$ref": "AAAAAAGECTkGRXMSI2E="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGECTkGRXMV1Ic=",
+													"_parent": {
+														"$ref": "AAAAAAGECTkGRXMUj3A="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": 48,
+													"height": 13
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGECTkGRXMWahk=",
+													"_parent": {
+														"$ref": "AAAAAAGECTkGRXMUj3A="
+													},
+													"font": "Arial;13;1",
+													"left": 549,
+													"top": 47,
+													"width": 156.6181640625,
+													"height": 13,
+													"text": "Blood Donation System"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGECTkGRXMXlVM=",
+													"_parent": {
+														"$ref": "AAAAAAGECTkGRXMUj3A="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": 48,
+													"width": 106.20263671875,
+													"height": 13,
+													"text": "(from Interaction1)"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGECTkGRXMYLhQ=",
+													"_parent": {
+														"$ref": "AAAAAAGECTkGRXMUj3A="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": 48,
+													"height": 13,
+													"horizontalAlignment": 1
+												}
+											],
+											"font": "Arial;13;0",
+											"left": 544,
+											"top": 40,
+											"width": 166.6181640625,
+											"height": 40,
+											"stereotypeLabel": {
+												"$ref": "AAAAAAGECTkGRXMV1Ic="
+											},
+											"nameLabel": {
+												"$ref": "AAAAAAGECTkGRXMWahk="
+											},
+											"namespaceLabel": {
+												"$ref": "AAAAAAGECTkGRXMXlVM="
+											},
+											"propertyLabel": {
+												"$ref": "AAAAAAGECTkGRXMYLhQ="
+											}
+										},
+										{
+											"_type": "UMLLinePartView",
+											"_id": "AAAAAAGECTkGRXMZjtQ=",
+											"_parent": {
+												"$ref": "AAAAAAGECTkGRXMTTN4="
+											},
+											"model": {
+												"$ref": "AAAAAAGECTkGRXMSI2E="
+											},
+											"font": "Arial;13;0",
+											"left": 627,
+											"top": 80,
+											"width": 1,
+											"height": 361
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 544,
+									"top": 40,
+									"width": 166.6181640625,
+									"height": 401,
+									"nameCompartment": {
+										"$ref": "AAAAAAGECTkGRXMUj3A="
+									},
+									"linePart": {
+										"$ref": "AAAAAAGECTkGRXMZjtQ="
+									}
+								},
+								{
+									"_type": "UMLSeqLifelineView",
+									"_id": "AAAAAAGEwptQfGdWa30=",
+									"_parent": {
+										"$ref": "AAAAAAGECTVomnI7ESA="
+									},
+									"model": {
+										"$ref": "AAAAAAGEwptQfGdVjJE="
+									},
+									"subViews": [
+										{
+											"_type": "UMLNameCompartmentView",
+											"_id": "AAAAAAGEwptQfGdXluw=",
+											"_parent": {
+												"$ref": "AAAAAAGEwptQfGdWa30="
+											},
+											"model": {
+												"$ref": "AAAAAAGEwptQfGdVjJE="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGEwptQfGdYwJ0=",
+													"_parent": {
+														"$ref": "AAAAAAGEwptQfGdXluw="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": -300,
+													"height": 13
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGEwptQfGdZaZ8=",
+													"_parent": {
+														"$ref": "AAAAAAGEwptQfGdXluw="
+													},
+													"font": "Arial;13;1",
+													"left": 69,
+													"top": 87,
+													"width": 101.8544921875,
+													"height": 13,
+													"text": "Donor: Actor1"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGEwptQfGdaaA8=",
+													"_parent": {
+														"$ref": "AAAAAAGEwptQfGdXluw="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": -300,
+													"width": 106.20263671875,
+													"height": 13,
+													"text": "(from Interaction1)"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGEwptQfGdb5FM=",
+													"_parent": {
+														"$ref": "AAAAAAGEwptQfGdXluw="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": -300,
+													"height": 13,
+													"horizontalAlignment": 1
+												}
+											],
+											"font": "Arial;13;0",
+											"left": 64,
+											"top": 80,
+											"width": 111.8544921875,
+											"height": 25,
+											"stereotypeLabel": {
+												"$ref": "AAAAAAGEwptQfGdYwJ0="
+											},
+											"nameLabel": {
+												"$ref": "AAAAAAGEwptQfGdZaZ8="
+											},
+											"namespaceLabel": {
+												"$ref": "AAAAAAGEwptQfGdaaA8="
+											},
+											"propertyLabel": {
+												"$ref": "AAAAAAGEwptQfGdb5FM="
+											}
+										},
+										{
+											"_type": "UMLLinePartView",
+											"_id": "AAAAAAGEwptQfGdc+zA=",
+											"_parent": {
+												"$ref": "AAAAAAGEwptQfGdWa30="
+											},
+											"model": {
+												"$ref": "AAAAAAGEwptQfGdVjJE="
+											},
+											"font": "Arial;13;0",
+											"left": 120,
+											"top": 105,
+											"width": 1,
+											"height": 336
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 64,
+									"top": 40,
+									"width": 111.8544921875,
+									"height": 401,
+									"stereotypeDisplay": "icon",
+									"nameCompartment": {
+										"$ref": "AAAAAAGEwptQfGdXluw="
+									},
+									"linePart": {
+										"$ref": "AAAAAAGEwptQfGdc+zA="
+									}
+								},
+								{
+									"_type": "UMLSeqMessageView",
+									"_id": "AAAAAAGEwpukQWd2Fuo=",
+									"_parent": {
+										"$ref": "AAAAAAGECTVomnI7ESA="
+									},
+									"model": {
+										"$ref": "AAAAAAGEwpukQWd1lT8="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGEwpukQmd3J3w=",
+											"_parent": {
+												"$ref": "AAAAAAGEwpukQWd2Fuo="
+											},
+											"model": {
+												"$ref": "AAAAAAGEwpukQWd1lT8="
+											},
+											"font": "Arial;13;0",
+											"left": 287,
+											"top": 128,
+											"width": 167.67333984375,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGEwpukQWd2Fuo="
+											},
+											"edgePosition": 1,
+											"text": "1 : Click on donate blood"
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGEwpukQmd47iU=",
+											"_parent": {
+												"$ref": "AAAAAAGEwpukQWd2Fuo="
+											},
+											"model": {
+												"$ref": "AAAAAAGEwpukQWd1lT8="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 370,
+											"top": 113,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 25,
+											"hostEdge": {
+												"$ref": "AAAAAAGEwpukQWd2Fuo="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGEwpukQmd5/uw=",
+											"_parent": {
+												"$ref": "AAAAAAGEwpukQWd2Fuo="
+											},
+											"model": {
+												"$ref": "AAAAAAGEwpukQWd1lT8="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 370,
+											"top": 148,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGEwpukQWd2Fuo="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "UMLActivationView",
+											"_id": "AAAAAAGEwpukQmd6hFc=",
+											"_parent": {
+												"$ref": "AAAAAAGEwpukQWd2Fuo="
+											},
+											"model": {
+												"$ref": "AAAAAAGEwpukQWd1lT8="
+											},
+											"font": "Arial;13;0",
+											"left": 620,
+											"top": 144,
+											"width": 14,
+											"height": 29
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAGECTkGRXMZjtQ="
+									},
+									"tail": {
+										"$ref": "AAAAAAGEwptQfGdc+zA="
+									},
+									"points": "120:144;620:144",
+									"nameLabel": {
+										"$ref": "AAAAAAGEwpukQmd3J3w="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGEwpukQmd47iU="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGEwpukQmd5/uw="
+									},
+									"activation": {
+										"$ref": "AAAAAAGEwpukQmd6hFc="
+									}
+								},
+								{
+									"_type": "UMLTextView",
+									"_id": "AAAAAAGEwqr1KiUi0Bw=",
+									"_parent": {
+										"$ref": "AAAAAAGECTVomnI7ESA="
+									},
+									"font": "Arial;13;0",
+									"left": 344,
+									"top": 48,
+									"width": 169,
+									"height": 33,
+									"text": "Donate Blood:S2"
+								},
+								{
+									"_type": "UMLSeqMessageView",
+									"_id": "AAAAAAGFuYhybSEMjfw=",
+									"_parent": {
+										"$ref": "AAAAAAGECTVomnI7ESA="
+									},
+									"model": {
+										"$ref": "AAAAAAGFuYhybSELwog="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGFuYhybSENgK0=",
+											"_parent": {
+												"$ref": "AAAAAAGFuYhybSEMjfw="
+											},
+											"model": {
+												"$ref": "AAAAAAGFuYhybSELwog="
+											},
+											"font": "Arial;13;0",
+											"left": 319,
+											"top": 220,
+											"width": 106.208984375,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGFuYhybSEMjfw="
+											},
+											"edgePosition": 1,
+											"text": "2 : Asks for details"
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGFuYhybiEOxGw=",
+											"_parent": {
+												"$ref": "AAAAAAGFuYhybSEMjfw="
+											},
+											"model": {
+												"$ref": "AAAAAAGFuYhybSELwog="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 372,
+											"top": 235,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 25,
+											"hostEdge": {
+												"$ref": "AAAAAAGFuYhybSEMjfw="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGFuYhybiEPa7A=",
+											"_parent": {
+												"$ref": "AAAAAAGFuYhybSEMjfw="
+											},
+											"model": {
+												"$ref": "AAAAAAGFuYhybSELwog="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 373,
+											"top": 200,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGFuYhybSEMjfw="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "UMLActivationView",
+											"_id": "AAAAAAGFuYhybiEQJzk=",
+											"_parent": {
+												"$ref": "AAAAAAGFuYhybSEMjfw="
+											},
+											"model": {
+												"$ref": "AAAAAAGFuYhybSELwog="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 120,
+											"top": 216,
+											"width": 14,
+											"height": 25
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAGEwptQfGdc+zA="
+									},
+									"tail": {
+										"$ref": "AAAAAAGECTkGRXMZjtQ="
+									},
+									"points": "627:216;120:216",
+									"nameLabel": {
+										"$ref": "AAAAAAGFuYhybSENgK0="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGFuYhybiEOxGw="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGFuYhybiEPa7A="
+									},
+									"activation": {
+										"$ref": "AAAAAAGFuYhybiEQJzk="
+									}
+								},
+								{
+									"_type": "UMLSeqMessageView",
+									"_id": "AAAAAAGFuYippCEif38=",
+									"_parent": {
+										"$ref": "AAAAAAGECTVomnI7ESA="
+									},
+									"model": {
+										"$ref": "AAAAAAGFuYippCEhSOo="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGFuYippCEj8qE=",
+											"_parent": {
+												"$ref": "AAAAAAGFuYippCEif38="
+											},
+											"model": {
+												"$ref": "AAAAAAGFuYippCEhSOo="
+											},
+											"font": "Arial;13;0",
+											"left": 324,
+											"top": 264,
+											"width": 92.4853515625,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGFuYippCEif38="
+											},
+											"edgePosition": 1,
+											"text": "3 : Enter Details"
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGFuYippCEkVvE=",
+											"_parent": {
+												"$ref": "AAAAAAGFuYippCEif38="
+											},
+											"model": {
+												"$ref": "AAAAAAGFuYippCEhSOo="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 370,
+											"top": 249,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 25,
+											"hostEdge": {
+												"$ref": "AAAAAAGFuYippCEif38="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGFuYippCElNWE=",
+											"_parent": {
+												"$ref": "AAAAAAGFuYippCEif38="
+											},
+											"model": {
+												"$ref": "AAAAAAGFuYippCEhSOo="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 370,
+											"top": 284,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGFuYippCEif38="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "UMLActivationView",
+											"_id": "AAAAAAGFuYippCEmMN8=",
+											"_parent": {
+												"$ref": "AAAAAAGFuYippCEif38="
+											},
+											"model": {
+												"$ref": "AAAAAAGFuYippCEhSOo="
+											},
+											"font": "Arial;13;0",
+											"left": 620,
+											"top": 280,
+											"width": 14,
+											"height": 29
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAGECTkGRXMZjtQ="
+									},
+									"tail": {
+										"$ref": "AAAAAAGEwptQfGdc+zA="
+									},
+									"points": "120:280;620:280",
+									"nameLabel": {
+										"$ref": "AAAAAAGFuYippCEj8qE="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGFuYippCEkVvE="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGFuYippCElNWE="
+									},
+									"activation": {
+										"$ref": "AAAAAAGFuYippCEmMN8="
+									}
+								},
+								{
+									"_type": "UMLSeqMessageView",
+									"_id": "AAAAAAGFuYj7bSE6iK8=",
+									"_parent": {
+										"$ref": "AAAAAAGECTVomnI7ESA="
+									},
+									"model": {
+										"$ref": "AAAAAAGFuYj7bSE5gno="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGFuYj7bSE7S4o=",
+											"_parent": {
+												"$ref": "AAAAAAGFuYj7bSE6iK8="
+											},
+											"model": {
+												"$ref": "AAAAAAGFuYj7bSE5gno="
+											},
+											"font": "Arial;13;0",
+											"left": 300,
+											"top": 321,
+											"width": 140.20703125,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGFuYj7bSE6iK8="
+											},
+											"edgePosition": 1,
+											"text": "4 : click on donate blood"
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGFuYj7bSE8FiA=",
+											"_parent": {
+												"$ref": "AAAAAAGFuYj7bSE6iK8="
+											},
+											"model": {
+												"$ref": "AAAAAAGFuYj7bSE5gno="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 370,
+											"top": 306,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 25,
+											"hostEdge": {
+												"$ref": "AAAAAAGFuYj7bSE6iK8="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGFuYj7bSE9270=",
+											"_parent": {
+												"$ref": "AAAAAAGFuYj7bSE6iK8="
+											},
+											"model": {
+												"$ref": "AAAAAAGFuYj7bSE5gno="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 370,
+											"top": 341,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGFuYj7bSE6iK8="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "UMLActivationView",
+											"_id": "AAAAAAGFuYj7biE+Gto=",
+											"_parent": {
+												"$ref": "AAAAAAGFuYj7bSE6iK8="
+											},
+											"model": {
+												"$ref": "AAAAAAGFuYj7bSE5gno="
+											},
+											"font": "Arial;13;0",
+											"left": 620,
+											"top": 337,
+											"width": 14,
+											"height": 29
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAGECTkGRXMZjtQ="
+									},
+									"tail": {
+										"$ref": "AAAAAAGEwptQfGdc+zA="
+									},
+									"points": "120:337;620:337",
+									"nameLabel": {
+										"$ref": "AAAAAAGFuYj7bSE7S4o="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGFuYj7bSE8FiA="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGFuYj7bSE9270="
+									},
+									"activation": {
+										"$ref": "AAAAAAGFuYj7biE+Gto="
+									}
+								},
+								{
+									"_type": "UMLSeqMessageView",
+									"_id": "AAAAAAGFuYn4VyFzzfU=",
+									"_parent": {
+										"$ref": "AAAAAAGECTVomnI7ESA="
+									},
+									"model": {
+										"$ref": "AAAAAAGFuYn4VyFyP1I="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGFuYn4VyF0n/k=",
+											"_parent": {
+												"$ref": "AAAAAAGFuYn4VyFzzfU="
+											},
+											"model": {
+												"$ref": "AAAAAAGFuYn4VyFyP1I="
+											},
+											"font": "Arial;13;0",
+											"left": 141,
+											"top": 412,
+											"width": 463.94384765625,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGFuYn4VyFzzfU="
+											},
+											"edgePosition": 1,
+											"text": "5 : Display a message related to wrong information or not legible to donate blood"
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGFuYn4VyF1HPM=",
+											"_parent": {
+												"$ref": "AAAAAAGFuYn4VyFzzfU="
+											},
+											"model": {
+												"$ref": "AAAAAAGFuYn4VyFyP1I="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 372,
+											"top": 427,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 25,
+											"hostEdge": {
+												"$ref": "AAAAAAGFuYn4VyFzzfU="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGFuYn4VyF2ov4=",
+											"_parent": {
+												"$ref": "AAAAAAGFuYn4VyFzzfU="
+											},
+											"model": {
+												"$ref": "AAAAAAGFuYn4VyFyP1I="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 373,
+											"top": 392,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGFuYn4VyFzzfU="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "UMLActivationView",
+											"_id": "AAAAAAGFuYn4WCF3bLE=",
+											"_parent": {
+												"$ref": "AAAAAAGFuYn4VyFzzfU="
+											},
+											"model": {
+												"$ref": "AAAAAAGFuYn4VyFyP1I="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 120,
+											"top": 408,
+											"width": 14,
+											"height": 25
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAGEwptQfGdc+zA="
+									},
+									"tail": {
+										"$ref": "AAAAAAGECTkGRXMZjtQ="
+									},
+									"points": "627:408;120:408",
+									"nameLabel": {
+										"$ref": "AAAAAAGFuYn4VyF0n/k="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGFuYn4VyF1HPM="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGFuYn4VyF2ov4="
+									},
+									"activation": {
+										"$ref": "AAAAAAGFuYn4WCF3bLE="
+									}
+								}
+							]
+						}
+					],
+					"messages": [
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAGEwpukQWd1lT8=",
+							"_parent": {
+								"$ref": "AAAAAAGECTVomnI6/yU="
+							},
+							"name": "Click on donate blood",
+							"source": {
+								"$ref": "AAAAAAGEwptQfGdVjJE="
+							},
+							"target": {
+								"$ref": "AAAAAAGECTkGRXMSI2E="
+							}
+						},
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAGFuYhybSELwog=",
+							"_parent": {
+								"$ref": "AAAAAAGECTVomnI6/yU="
+							},
+							"name": "Asks for details",
+							"source": {
+								"$ref": "AAAAAAGECTkGRXMSI2E="
+							},
+							"target": {
+								"$ref": "AAAAAAGEwptQfGdVjJE="
+							},
+							"messageSort": "reply"
+						},
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAGFuYippCEhSOo=",
+							"_parent": {
+								"$ref": "AAAAAAGECTVomnI6/yU="
+							},
+							"name": "Enter Details",
+							"source": {
+								"$ref": "AAAAAAGEwptQfGdVjJE="
+							},
+							"target": {
+								"$ref": "AAAAAAGECTkGRXMSI2E="
+							},
+							"messageSort": "asynchCall"
+						},
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAGFuYj7bSE5gno=",
+							"_parent": {
+								"$ref": "AAAAAAGECTVomnI6/yU="
+							},
+							"name": "click on donate blood",
+							"source": {
+								"$ref": "AAAAAAGEwptQfGdVjJE="
+							},
+							"target": {
+								"$ref": "AAAAAAGECTkGRXMSI2E="
+							},
+							"messageSort": "asynchCall"
+						},
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAGFuYn4VyFyP1I=",
+							"_parent": {
+								"$ref": "AAAAAAGECTVomnI6/yU="
+							},
+							"name": "Display a message related to wrong information or not legible to donate blood",
+							"source": {
+								"$ref": "AAAAAAGECTkGRXMSI2E="
+							},
+							"target": {
+								"$ref": "AAAAAAGEwptQfGdVjJE="
+							},
+							"messageSort": "reply"
+						}
+					],
+					"participants": [
+						{
+							"_type": "UMLLifeline",
+							"_id": "AAAAAAGECTkGRXMSI2E=",
+							"_parent": {
+								"$ref": "AAAAAAGECTVomnI6/yU="
+							},
+							"name": "Blood Donation System",
+							"represent": {
+								"$ref": "AAAAAAGECTkGRHMR6nA="
+							},
+							"isMultiInstance": false
+						},
+						{
+							"_type": "UMLLifeline",
+							"_id": "AAAAAAGEwptQfGdVjJE=",
+							"_parent": {
+								"$ref": "AAAAAAGECTVomnI6/yU="
+							},
+							"name": "Donor",
+							"represent": {
+								"$ref": "AAAAAAGEwptQe2dU20s="
+							},
+							"isMultiInstance": false
+						}
+					]
+				}
+			],
+			"attributes": [
+				{
+					"_type": "UMLAttribute",
+					"_id": "AAAAAAGECTkGRHMR6nA=",
+					"_parent": {
+						"$ref": "AAAAAAGECTVomnI5Yfw="
+					},
+					"name": "Role1",
+					"type": ""
+				},
+				{
+					"_type": "UMLAttribute",
+					"_id": "AAAAAAGECTlDd3MxZlU=",
+					"_parent": {
+						"$ref": "AAAAAAGECTVomnI5Yfw="
+					},
+					"name": "Role2",
+					"type": ""
+				},
+				{
+					"_type": "UMLAttribute",
+					"_id": "AAAAAAGEwptQe2dU20s=",
+					"_parent": {
+						"$ref": "AAAAAAGECTVomnI5Yfw="
+					},
+					"name": "Role3",
+					"type": {
+						"$ref": "AAAAAAGEwpZjf2a6Tos="
+					}
+				}
+			]
+		}
+	]
+}

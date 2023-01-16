@@ -836,7 +836,7 @@ public class Dashboard extends javax.swing.JFrame {
 
         jButton6.setBackground(new java.awt.Color(255, 0, 51));
         jButton6.setForeground(new java.awt.Color(255, 255, 255));
-        jButton6.setText("CHECK DONORS LIST");
+        jButton6.setText("View DONORS LIST");
         jButton6.setBorder(null);
         jButton6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButton6.addActionListener(new java.awt.event.ActionListener() {
@@ -964,7 +964,7 @@ public class Dashboard extends javax.swing.JFrame {
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
         // TODO add your handling code here:
-        CheckDonorList objDonorList = BDMS_Creator.getInstanceOF_CheckDonorList();
+        ViewDonorsList objDonorList = BDMS_Creator.getInstanceOF_CheckDonorList();
         
         this.setVisible(false);
         objDonorList.setVisible(true);

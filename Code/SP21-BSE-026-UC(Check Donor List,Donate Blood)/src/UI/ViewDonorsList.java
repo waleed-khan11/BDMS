@@ -13,9 +13,9 @@ import model.BDMS_Controller;
 import javax.swing.table.DefaultTableModel;
 import java.util.ArrayList;
 import model.dto.DonorDTO;
-public class CheckDonorList extends javax.swing.JFrame {
+public class ViewDonorsList extends javax.swing.JFrame {
     BDMS_Controller objController;
-    public CheckDonorList() {
+    public ViewDonorsList() {
         initComponents();
         objController =  BDMS_Creator.getInstanceOFBDMS_Controller();
       loadData();
@@ -85,7 +85,7 @@ public class CheckDonorList extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 0, 0));
-        jLabel1.setText("Check Donor List");
+        jLabel1.setText("Donors List");
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/logo.png"))); // NOI18N
 
@@ -268,20 +268,21 @@ public class CheckDonorList extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(CheckDonorList.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ViewDonorsList.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(CheckDonorList.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ViewDonorsList.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(CheckDonorList.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ViewDonorsList.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(CheckDonorList.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ViewDonorsList.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new CheckDonorList().setVisible(true);
+                new ViewDonorsList().setVisible(true);
             }
         });
     }

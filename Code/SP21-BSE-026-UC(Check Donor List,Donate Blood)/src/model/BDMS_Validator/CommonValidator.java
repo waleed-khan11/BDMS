@@ -8,7 +8,7 @@ import model.dto.MessageType;
 import model.dto.Response;
 import model.BDMS_Creator;
 import model.dto.DonorDTO;
-import UI.CheckDonorList;
+import UI.ViewDonorsList;
 /**
  *
  * @author Waleed
@@ -46,7 +46,7 @@ public class CommonValidator {
     }
         }
         public  void validateSearch(Response objResponse){
-              CheckDonorList objdonList = BDMS_Creator.getInstanceOF_CheckDonorList();
+              ViewDonorsList objdonList = BDMS_Creator.getInstanceOF_CheckDonorList();
               String Search = objdonList.getSearchVal();
               if(Search==null){
                   objResponse.messagesList.add(BDMS_Creator.getInstanceOF_Message("Please first type something in the search box then click on search.",MessageType.Error));
